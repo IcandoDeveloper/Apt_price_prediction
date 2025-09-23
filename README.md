@@ -90,3 +90,14 @@ Apt_price_prediction/
 ![학군 여부에 따른 가격 분포](images/price_by_school.png)
 
 > 주: 이미지는 `images/price_by_station.png`, `images/price_by_school.png` 파일을 저장소에 추가하면 자동으로 표시됩니다.
+
+### 개선 폭 (베이스라인 → 최종본)
+
+| Model            | MAE 감소율(%) | ΔR²    |
+|------------------|---------------|--------|
+| LinearRegression | -47.1         | +0.070 |
+| RandomForest     | 46.7          | +0.162 |
+| XGBoost          | 52.7          | +0.275 |
+| LightGBM         | 67.1          | +0.503 |
+
+※ MAE 감소율 = (Baseline − Final) / Baseline × 100, ΔR² = Final − Baseline
