@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_convert/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VSCode / JetBrains
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Coverage / test
+.coverage
+.tox/
+.pytest_cache/
+
+# Node
+node_modules/
+
+# Keep data tracked: do NOT ignore data/
+# If needed later: add data/*.csv to .gitattributes for LFS
