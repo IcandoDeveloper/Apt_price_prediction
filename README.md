@@ -76,3 +76,17 @@ Apt_price_prediction/
 - [VALID] MAE: 4613.08, R²: 0.9430
 
 설명: 동일한 데이터 분할에서 MAE와 R²로 비교했습니다.
+
+## 데이터 시각화
+
+아래 박스플롯은 전용면적 구간(area_bin)별 가격 분포를, 역세권 여부 및 학군 프리미엄 여부에 따라 비교한 예시입니다. 두 그래프 모두에서 해당 특성이 있는 그룹(역세권, 학군 프리미엄)이 전반적으로 더 높은 분포를 보이는 경향을 확인할 수 있습니다.
+
+- 역세권 여부에 따른 가격 분포
+
+![역세권에 따른 가격 분포](images/price_by_station.png)
+
+- 학군 여부에 따른 가격 분포
+
+![학군 여부에 따른 가격 분포](images/price_by_school.png)
+
+> 주: 이미지는 `images/price_by_station.png`, `images/price_by_school.png` 파일을 저장소에 추가하면 자동으로 표시됩니다.
